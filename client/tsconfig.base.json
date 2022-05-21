@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2021"],
+    "jsx": "react-jsx",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipLibCheck": true,
+
+    "baseUrl": "./",
+    "paths": {
+      "@react-springboot/client-service": ["./packages/client-service/src"],
+      "@react-springboot/client-service/*": ["./packages/client-service/src"],
+      "@react-springboot/client-app": ["./packages/client-app/src"],
+      "@react-springboot/client-app/*": ["./packages/client-app/src"]
+    }
+  }
+}
