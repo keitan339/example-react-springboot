@@ -1,5 +1,6 @@
 package example.springboot.ess.common.entity;
 
+import java.io.Serializable;
 import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,7 +12,7 @@ import lombok.Data;
 @Entity
 @Table(name = "shift")
 @Data
-public class ShiftEntity {
+public class ShiftEntity implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)

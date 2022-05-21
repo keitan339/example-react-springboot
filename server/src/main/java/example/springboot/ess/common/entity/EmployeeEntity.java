@@ -1,5 +1,6 @@
 package example.springboot.ess.common.entity;
 
+import java.io.Serializable;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -11,7 +12,7 @@ import lombok.Data;
 @Entity
 @Table(name = "employee")
 @Data
-public class EmployeeEntity {
+public class EmployeeEntity implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
