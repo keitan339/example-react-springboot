@@ -1,7 +1,7 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "cSpell.words": ["springboot"],
+  "cSpell.words": ["Servlet", "springboot"],
   "editor.tabSize": 2,
   "java.format.settings.profile": "GoogleStyle",
   "java.format.settings.url": "https://raw.githubusercontent.com/google/styleguide/gh-pages/eclipse-java-google-style.xml",
